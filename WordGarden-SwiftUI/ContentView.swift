@@ -24,7 +24,7 @@ struct ContentView: View {
     @State private var audioPlayer: AVAudioPlayer!
     @FocusState private var textFieldIsFocused: Bool
     
-    private let wordsToGuess = ["UBIQUITOUS", "DOG","CAT"]
+    private let wordsToGuess = ["JULIAN", "SERENA", "SAM", "COOL", "TELEVISION", "HUNGRY", "HIPPOS", "GLASSES", "YOUTUBE", "GOOGLE", "SKATEBOARD", "LIGHTS", "CHAIR", "Switch", "NINTENDO", "TURTLE", "SNAKE", "ROLLERSKATES"]
     private let maximumGuesses = 8
     
     var body: some View {
